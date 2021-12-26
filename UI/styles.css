@@ -1,0 +1,249 @@
+.home{
+    background-image: url("/Pictures/Banner_mage\ 3.png");
+    display: inline-flex;
+    width: 100%;
+    padding: 5vw;
+    object-fit: cover;
+    background-repeat-y: no-repeat;
+}
+.formInHome{
+    padding: 1vw;
+    background-color: white;
+}
+.rightHome{
+    width: 30%;
+    padding-right: 5vw;
+}
+.leftHome {
+    width: 70%;
+}
+.adult-paediatric-b {
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 40px;
+    width: 622px;
+    text-align: left;
+    padding-top: 3.5vw;
+  }
+  .haematology-oncolo {
+    color: #a5aeb9;
+    font-family: StagSans;
+    font-size: 25px;
+    letter-spacing: 3.59px;
+    line-height: 34px;
+    width: 599px;
+    text-align: left;
+  }
+  form > div >label{
+    color: grey;
+    font-weight: normal;
+    
+  }
+  .boneMarrow{
+    display: inline-flex;
+    column-gap: 5vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+  }
+  .styledDiv{
+    padding:2vh;
+    background-image: linear-gradient(to right, #2EC4B8 , #6078EA);
+      border-radius: 4px;
+      color: #FFFFFF;
+    font-family: StagSans;
+  }
+  .unStyledDiv{
+      padding:2vh;
+      border-radius: 4px;
+  }
+  .doctorName {
+    color: #1D5AA6;
+    font-family: StagSans;
+    font-size: 22px;
+    letter-spacing: 1.76px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+
+  .doctor {
+    background-color: #f9f9ff;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    padding-bottom: 2vw;
+  }
+  .doctors{
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 2%;
+    background-color: #f9f9ff;
+  }
+  .doctor>img{
+    width: 30%;
+    height: auto;
+  }
+  .alldoctors{
+    display: inline-flex;
+
+  }
+  .doctorsAdult{
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 10%;
+    background-color: #f9f9ff;
+
+  }
+  .boneMarrowTypes{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .warningSignDisease{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-flex;
+    flex-wrap: wrap;
+      
+  }
+  .warningSign{
+    border: 1px solid #E5EAFF;
+    padding: 1%;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 3px 5px 29px 0 rgb(187 165 228 / 10%);
+    width: 26rem;
+    margin: 1rem;
+  
+
+}
+.answer {
+  display: none;
+}
+.testimonials{
+  display: inline-flex;
+    flex-wrap: wrap;
+}
+.testimonialFirstPart{
+  display: inline-flex;
+}
+.testimonialinfo{
+  display: block;
+  padding-left: 2rem;
+}
+.testimonialName {
+  font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.testimonial {
+  width: 35rem;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 9px 8px 27px 0 rgb(0 0 0 / 4%);
+    margin: 1rem;
+}
+.testimonialRole {
+  font-weight: lighter;
+}
+.testimonialFirstPart >img{
+  
+    height: auto;
+}
+.bookAnApp{
+  display: grid;
+  place-content: center;
+}
+.testimonialsBody{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.testimonials{
+  margin-left: 10%;
+  margin-right: 10%; 
+}
+.bookAppBtn{
+  background-color: #004498;
+    border-radius: 3.81px;
+    color: #FFFFFF;
+    font-family: Arial;
+    text-align: left;
+    padding: 1rem;
+}
+.header{
+  color: #22B78E;
+  font-family: StagSans;
+  text-align: left;
+  font-weight: bold;
+}
+.boneMarrowType {
+  color: #000000;
+    font-family: StagSans;
+    text-align: left;
+}
+.warningCont{
+  color: #000000;
+  font-family: StagSans;
+  margin-top: 2rem;
+}
+.question {
+  color: #1D5AA6;
+  font-family: StagSans;
+  text-align: left;
+  font-size: 2rem;
+    font-weight: bold;
+
+}
+.questions{
+  margin-left: 10%;
+    margin-right: 10%;
+}
+[class*="answer"] {
+  color: #000000;
+  font-family: StagSans;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+footer{
+  background-color: #272727;
+  width: 1440px;
+  height: 256px;
+}
+.footerIcon>i{
+  font-size: 3rem;
+    color: white;
+    padding: 1rem;
+}
+.footerText{
+  color: #FFFFFF;
+  font-family: StagSans;
+  text-align: center;
+}
+.footerIcon{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    padding-bottom: 0;
+    margin-top: 5rem;
+}
+.doctorHeader{
+  text-align: center;
+    color: #22B78E;
+    font-family: StagSans;
+    font-weight: bold;
+    padding-bottom: 5rem;
+}
+.doctor>input{
+  background-image: linear-gradient(to right, #17EAD9, #6078EA);
+    color: #FFFFFF;
+    font-family: StagSans;
+    border: 0;
+    width: 12rem;
+    height: 4rem;
+}
+
